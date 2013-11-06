@@ -16,6 +16,14 @@ visitors present in the page at the same time.
 This proposal aims to make it easier for users to meet other visitors
 of the same Web pages and to navigate together from page to page.
 
+## USE CASES ##
+
+1. Café
+
+2. Live Concert
+
+3. Guided Tour
+
 ## AUTHOR ##
 
 Eric Bréchemier  
