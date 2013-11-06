@@ -20,9 +20,22 @@ of the same Web pages and to navigate together from page to page.
 
 1. Café
 
+    The analog of a coffee place. Friends plan to meet on a Web page,
+    to chat, have a drink and meet new people. When they navigate to
+    the Web page, they can recognize each other and discover other people
+    present at the same time.
+
 2. Live Concert
 
+    When the Rock band plays its famous slow songs,
+    members of the audience switch to a flame-shaped avatar and
+    move their cursors in rhythm.
+
 3. Guided Tour
+
+    Today at 5pm and 7pm, let a real Parisian guide you
+    through her favorite French blogs and online boutiques
+    (about 1 hour, reservation recommended, limited to 10 people).
 
 ## PRIOR ART ##
 
