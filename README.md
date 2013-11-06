@@ -113,8 +113,8 @@ of the same Web pages and to navigate together from page to page.
     > This could, for example, be used with a HTML5 game application.
     > When the user loads the site, the browser could send a signal
     > to the social provider, which immediately could display a list
-    > of which of the user's friends are currently playing
-    > - or would be interested in playing a turn-based game,
+    > of which of the user's friends are currently playing -
+    > or would be interested in playing a turn-based game,
     > if they're not online right now.
     >
     > Site developers could also benefit from awareness
