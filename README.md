@@ -87,7 +87,7 @@ of the same Web pages and to navigate together from page to page.
     > so while a Gravatar image request may return a result,
     > a profile request for the same hash may not.
     >
-    > *hCard*
+    > **hCard**
     >
     > Profile pages are fully marked up using hCard,
     > a microformat for programmatically embedding information
@@ -113,7 +113,7 @@ of the same Web pages and to navigate together from page to page.
     >
     > 7. *Image* (main Gravatar) is marked up using `class=photo`
     >
-    > *Data Formats*
+    > **Data Formats**
     >
     > Profile data may be requested in different data formats
     > for simpler programmatic access.
