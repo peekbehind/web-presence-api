@@ -263,6 +263,21 @@ of the same Web pages and to navigate together from page to page.
 
 * [GitHub Project](https://github.com/mozilla/socialapi-dev)
 
+### Device APIs Requirements ###
+
+* [W3C Working Group Note](http://www.w3.org/TR/dap-api-reqs/)
+
+    > ** 8. Contacts **
+    >  This interface:
+    >
+    > * MUST enable listing all available address books on the device;
+    > * MUST enable listing all contacts in the address book(s);
+    > * MUST enable reading the details for a contact;
+    > * SHOULD enable creating a new contact;
+    > * SHOULD enable updating a contact;
+    > * SHOULD enable deleting a contact;
+    > * SHOULD enable filtering the list of contacts to search for a subset.
+
 ## REFERENCES ##
 
 * [Web Application Privacy Best Practices]
