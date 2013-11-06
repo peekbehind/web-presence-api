@@ -186,6 +186,49 @@ of the same Web pages and to navigate together from page to page.
 
 [Firefly]: http://usefirefly.com/
 
+### Extensible Messaging and Presence Protocol (XMPP) ###
+
+* [XMPP Standards Foundation](http://xmpp.org/)
+
+    > The Extensible Messaging and Presence Protocol (XMPP)
+    > is an open technology for real-time communication,
+    > which powers a wide range of applications
+    > including instant messaging, presence, multi-party chat,
+    > voice and video calls, collaboration, lightweight middleware,
+    > content syndication, and generalized routing of XML data.
+    > (...)
+
+* [RFC 3921 - XMPP: Instant Messaging and Presence]
+  (http://www.ietf.org/rfc/rfc3921.txt)
+
+    > § 5. Exchanging Presence Information
+    >
+    > Exchanging presence information is made relatively straightforward
+    > within XMPP by using presence stanzas.  However, we see here a
+    > contrast to the handling of messages: although a client MAY send
+    > directed presence information to another entity by including a 'to'
+    > address, normally presence notifications (i.e., presence stanzas with
+    > no 'type' or of type "unavailable" and with no 'to' address) are sent
+    > from a client to its server and then broadcasted by the server to any
+    > entities that are subscribed to the presence of the sending entity
+    > (in the terminology of RFC 2778 [IMP-MODEL], these entities are
+    > subscribers).
+    > (...)
+    >
+    > § 6. Managing Subscriptions
+    >
+    > In order to protect the privacy of instant messaging users and any
+    > other entities, presence and availability information is disclosed
+    > only to other entities that the user has approved.  When a user has
+    > agreed that another entity may view its presence, the entity is said
+    > to have a subscription to the user's presence information.  A
+    > subscription lasts across sessions; indeed, it lasts until the
+    > subscriber unsubscribes or the subscribee cancels the
+    > previously-granted subscription.  Subscriptions are managed within
+    > XMPP by sending presence stanzas containing specially-defined
+    > attributes.
+    > (...)
+
 ## RELATED WORK ##
 
 ### Page Visibility ###
