@@ -325,7 +325,7 @@ of the same Web pages and to navigate together from page to page.
 
 * [W3C Working Group Note](http://www.w3.org/TR/dap-api-reqs/)
 
-    > 8. **Contacts**
+    > 8\. **Contacts**
     >
     >  This interface:
     >
