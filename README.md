@@ -299,6 +299,48 @@ of the same Web pages and to navigate together from page to page.
 * [WebRTC API at W3C]
   (http://dev.w3.org/2011/webrtc/editor/webrtc.html)
 
+### Geolocation API Specification ###
+
+* [W3C Recommendation](http://www.w3.org/TR/geolocation-API/)
+
+    > The Geolocation API defines a high-level interface
+    > to location information associated only with the device
+    > hosting the implementation, such as latitude and longitude.
+    > The API itself is agnostic of the underlying
+    > location information sources.
+    > (...)
+    >
+    > User agents must not send location information to Web sites
+    > without the express permission of the user.
+    > User agents must acquire permission through a user interface,
+    > unless they have prearranged trust relationships with users (...)
+    >
+    > Recipients must only request location information when necessary.
+    > Recipients must only use the location information for the task
+    > for which it was provided to them.
+    > Recipients must dispose of location information
+    > once that task is completed,
+    > unless expressly permitted to retain it by the user.
+    > Recipients must also take measures
+    > to protect this information against unauthorized access.
+    > If location information is stored,
+    > users should be allowed to update and delete this information.
+    >
+    > The recipient of location information must not retransmit
+    > the location information without the user’s express permission.
+    > Care should be taken when retransmitting
+    > and use of encryption is encouraged.
+    >
+    > Recipients must clearly and conspicuously disclose the fact
+    > that they are collecting location data,
+    > the purpose for the collection,
+    > how long the data is retained,
+    > how the data is secured,
+    > how the data is shared if it is shared,
+    > how users may access, update and delete the data,
+    > and any other choices that users have with respect to the data.
+    > (...)
+
 ## REFERENCES ##
 
 * [Presence information (Wikipedia)]
