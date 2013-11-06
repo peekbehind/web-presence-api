@@ -26,6 +26,105 @@ of the same Web pages and to navigate together from page to page.
 
 ## PRIOR ART ##
 
+### Gravatar ###
+
+* [Home Page][Gravatar]
+
+    > Your Gravatar is an image
+    > that follows you from site to site
+    > appearing beside your name
+    > when you do things like comment or post on a blog.
+    > (...)
+
+[Gravatar]: https://secure.gravatar.com/
+
+* [Developer Resources](https://secure.gravatar.com/site/implement/)
+
+    > Gravatar 'APIs' require no authentication,
+    > and are all based around simple HTTP GET requests.
+    > (...)
+
+* [Image Requests](https://secure.gravatar.com/site/implement/images/)
+
+    > Gravatar images may be requested just like a normal image,
+    > using an IMG tag.
+    > To get an image specific to a user,
+    > you must first calculate their email hash.
+    >
+    > The most basic image request URL looks like this:
+    >
+    >     http://www.gravatar.com/avatar/HASH
+    >
+    > (...)
+    >
+    > By default, images are presented at 80px by 80px
+    > if no size parameter is supplied.
+    > You may request a specific image size,
+    > which will be dynamically delivered from Gravatar
+    > by using the s= or size= parameter
+    > and passing a single pixel dimension
+    > (since the images are square):
+    >
+    >     http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200
+
+* [Profile Requests](https://secure.gravatar.com/site/implement/profiles/)
+
+    > Users may optionally enter a variety of profile information
+    > to associate with their Gravatar account.
+    > This information is openly-accessible
+    > using a similar process to requesting images.
+    >
+    > A simple profile link looks like this:
+    >
+    >     http://www.gravatar.com/HASH
+    >
+    > (...)
+    >
+    > An important point to note is that
+    > profile requests will only resolve for the hash
+    > of the primary address on an account.
+    > Users may have multiple addresses on a single account,
+    > so while a Gravatar image request may return a result,
+    > a profile request for the same hash may not.
+    >
+    > *hCard*
+    >
+    > Profile pages are fully marked up using hCard,
+    > a microformat for programmatically embedding information
+    > about people, companies, organizations, and places
+    > in HTML and other markup languages. (...)
+    >
+    > 1. *Email address* marked up with `class=email`
+    >    (only available via JS/client-side parsing
+    >    due to spam-protection measures)
+    >
+    > 2. *IM accounts* marked up using `class=url`
+    >    (some values only available via JS/client-side parsing
+    >    due to spam-protection measures)
+    >
+    > 3. *Phone numbers* marked up with `class=tel`
+    >    (using type/value subproperties)
+    >
+    > 4. *Verified accounts* marked up with `class=url` and `rel=me`
+    >
+    > 5. *Name* marked up with `class=fn`
+    >
+    > 6. *Personal Links* are marked up with `class=url`
+    >
+    > 7. *Image* (main Gravatar) is marked up using `class=photo`
+    >
+    > *Data Formats*
+    >
+    > Profile data may be requested in different data formats
+    > for simpler programmatic access.
+    > The following formats are supported:
+    >
+    > 1. JSON
+    > 2. XML
+    > 3. PHP
+    > 4. VCF/vCard
+    > 5. QR Code
+
 ### TogetherJS ###
 
 * [Home Page][TogetherJS]
