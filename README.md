@@ -246,6 +246,18 @@ of the same Web pages and to navigate together from page to page.
     > logo, audio clips, etc.).
     > (...)
 
+### hCard ###
+
+* [hCard 1.0](http://microformats.org/wiki/hcard)
+
+    > hCard is a simple, open format for publishing
+    > people, companies, organizations on the web,
+    > using a 1:1 representation of vCard (RFC2426)
+    > properties and values in HTML.
+    > hCard is one of several open microformat standards
+    > suitable for embedding data in HTML/HTML5,
+    > and Atom/RSS/XHTML or other XML.
+
 ### Page Visibility ###
 
 * [W3C Recommendation](http://www.w3.org/TR/page-visibility/)
