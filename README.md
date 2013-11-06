@@ -1,7 +1,13 @@
-web-presence-api
-================
+Web Presence API: "a Web Page as a Place"
+=========================================
 
-Web Presence API: a proposal to display the presence of users in a Web page
+This proposal describes the Web Presence API
+to display the presence of users in a Web page.
+
+## AUTHOR ##
+
+Eric Bréchemier  
+github@eric.brechemier.name
 
 ## LICENSE ##
 
