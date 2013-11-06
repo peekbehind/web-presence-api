@@ -301,6 +301,9 @@ of the same Web pages and to navigate together from page to page.
 
 ## REFERENCES ##
 
+* [Presence information (Wikipedia)]
+  (https://en.wikipedia.org/wiki/Presence\_information)
+
 * [Web Application Privacy Best Practices]
   (http://www.w3.org/TR/app-privacy-bp/)
 
