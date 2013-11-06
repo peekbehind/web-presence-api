@@ -188,6 +188,39 @@ of the same Web pages and to navigate together from page to page.
 
 ## RELATED WORK ##
 
+### Page Visibility ###
+
+* [W3C Recommendation](http://www.w3.org/TR/page-visibility/)
+
+    > (...)
+    > The Page Visibility specification defines a means
+    > for site developers to programmatically determine
+    > the current visibility of a document
+    > and be notified of visibility changes.
+    > Without knowing the visibility state of a page,
+    > web developers have been designing webpages
+    > as if they are always visible.
+    > This not only results in higher machine resource utilization,
+    > but it prevents web developers from making runtime decisions
+    > based on whether the webpage is visible to the user.
+    > Designing web pages with knowledge of the page visibility
+    > will allow for improved user experiences and power efficient sites.
+    >
+    > With this interface, web applications may chose to alter behavior
+    > based on whether they are visible to the user or not.
+    > For example, this interface can be used to scale back work
+    > when the page is no longer visible.
+    > If a web based email client is visible,
+    > it may check the server for new messages every few seconds.
+    > When hidden it might scale checking email to every few minutes.
+    > This interface can also be used to provide better runtime
+    > user experience decisions not related to power management.
+    > For example, a puzzle game could be paused
+    > when the user no longer has the game visible.
+    > Further, this interface can be used by advertisers
+    > to not charge for ads that are not visible to users.
+    > (...)
+
 ### Mozilla Labs Social API ###
 
 * [Wiki](https://wiki.mozilla.org/Labs/SocialAPI)
