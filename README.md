@@ -87,6 +87,50 @@ of the same Web pages and to navigate together from page to page.
 
 [Firefly]: http://usefirefly.com/
 
+## RELATED WORK ##
+
+### Mozilla Labs Social API ###
+
+* [Wiki](https://wiki.mozilla.org/Labs/SocialAPI)
+
+    > §1.9 Interactions with Content
+    >
+    > With the user's understanding and consent,
+    > the browser can take a more active role
+    > in the interactions between content and social systems.
+    > It could, for example, notice the presence of markup in the page
+    > requesting a "social browsing" experience.
+    > If the user has activated a social browsing feature,
+    > the browser could send a signal
+    > to one or more of the user's active platform providers,
+    > with a "the user is currently looking at..." message,
+    > at a user-specified level of granularity
+    > (whole-site, or individual URL).
+    > The social provider could use this
+    > to provide specific content recommendations in a sidebar,
+    > or to suggest immediate social interactions.
+    >
+    > This could, for example, be used with a HTML5 game application.
+    > When the user loads the site, the browser could send a signal
+    > to the social provider, which immediately could display a list
+    > of which of the user's friends are currently playing
+    > - or would be interested in playing a turn-based game,
+    > if they're not online right now.
+    >
+    > Site developers could also benefit from awareness
+    > that the user's browser has already provided social browsing behavior,
+    > allowing them to stop using valuable page space
+    > for behavior that is duplicated by the browser.
+    > A set of JavaScript APIs, for example, could indicate to a site
+    > that the user is already browsing socially
+    > and has share functionality built into the browser,
+    > so the site should focus on its displaying content.
+    > Getting this interaction right will require careful attention
+    > to the privacy and security characteristics of these APIs,
+    > as well as the interactions and visual design of the sidebar.
+
+* [GitHub Project](https://github.com/mozilla/socialapi-dev)
+
 ## AUTHOR ##
 
 Eric Bréchemier  
