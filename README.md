@@ -37,6 +37,32 @@ of the same Web pages and to navigate together from page to page.
     through her favorite French blogs and online boutiques
     (about 1 hour, reservation recommended, limited to 10 people).
 
+## REQUIREMENTS ##
+
+* the Web Presence API must allow a Web page to request permissions
+  to share user's profile with the site and/or third party services
+
+* the Web Presence API must allow a Web page to request permissions
+  to share user's profile with known and/or unknown users
+
+* the Web Presence API must provide to an authorized Web page the
+  user's profile information, including a display name and a picture
+
+* the Web Presence API may provide to an authorized Web page additional
+  forms of avatars in 2D (silhouette, animated sprite) or 3D (character model).
+
+* the Web Presence API must allow an authorized Web page to record
+  the stream of mouse movements of the user and to display such a
+  recorded stream to a user present in the same page at the same time.
+  In these replays, the appearance of the cursor may be customized
+  according to the user's preferences and the style of the site,
+  to make the user recognizable to other users.
+
+* the Web Presence API must allow a user to select a cursor to follow
+  in a replay, letting the browser scroll automatically to keep the selected
+  cursor into view and navigate to a different page to follow the cursor
+  through a clicked link.
+
 ## PRIOR ART ##
 
 ### Gravatar ###
