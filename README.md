@@ -71,6 +71,22 @@ of the same Web pages and to navigate together from page to page.
     > Our basic task/intention with TogetherJS has been
     > to enable real-time collaboration, co-browsing, co-presence.
 
+### Firefly ###
+
+* [Home Page][Firefly]
+
+    > Browser-sharing is what Firefly does.
+    > With browser-sharing, a customer that needs help
+    > only shares the specific webpage that they are on.
+    > They don't share their entire computer.
+    > Browser-sharing is also typically done from one person to another,
+    > and not from one person to an entire group.
+    > Browser-sharing is more privacy focused than traditional screensharing.
+    > Our implementation also requires no downloads for the customer,
+    > and works completely in the browser with JavaScript.
+
+[Firefly]: http://usefirefly.com/
+
 ## AUTHOR ##
 
 Eric Bréchemier  
