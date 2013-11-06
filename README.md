@@ -1,5 +1,5 @@
-Web Presence API: "a Web Page as a Place"
-=========================================
+A Web Page as a Place
+=====================
 
 This proposal describes the Web Presence API
 to display the presence of users in a Web page.
