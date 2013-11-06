@@ -278,6 +278,27 @@ of the same Web pages and to navigate together from page to page.
     > * SHOULD enable deleting a contact;
     > * SHOULD enable filtering the list of contacts to search for a subset.
 
+### WebRTC: Real-Time Communication between browsers ###
+
+* [Home Page](http://www.webrtc.org/)
+
+    > WebRTC is a free, open project that enables web browsers
+    > with Real-Time Communications (RTC) capabilities
+    > via simple Javascript APIs.
+    > The WebRTC components have been optimized to best serve this purpose.
+    >
+    > Our mission: To enable rich, high quality, RTC applications
+    > to be developed in the browser via simple Javascript APIs and HTML5.
+    >
+    > The WebRTC initiative is a project supported by Google, Mozilla
+    > and Opera. This page is maintained by the Google Chrome team.
+
+* [WebRTC Protocol at IETF]
+  (https://datatracker.ietf.org/wg/rtcweb/)
+
+* [WebRTC API at W3C]
+  (http://dev.w3.org/2011/webrtc/editor/webrtc.html)
+
 ## REFERENCES ##
 
 * [Web Application Privacy Best Practices]
