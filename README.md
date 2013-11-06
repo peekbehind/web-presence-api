@@ -231,6 +231,21 @@ of the same Web pages and to navigate together from page to page.
 
 ## RELATED WORK ##
 
+### vCard ###
+
+* [RFC 2426 - vCard MIME Directory Profile]
+  (https://tools.ietf.org/html/rfc2426)
+
+    > This memo defines the profile of the MIME Content-Type [MIME-DIR] for
+    > directory information for a white-pages person object, based on a
+    > vCard electronic business card. The profile definition is independent
+    > of any particular directory service or protocol. The profile is
+    > defined for representing and exchanging a variety of information
+    > about an individual (e.g., formatted and structured name and delivery
+    > addresses, email address, multiple telephone numbers, photograph,
+    > logo, audio clips, etc.).
+    > (...)
+
 ### Page Visibility ###
 
 * [W3C Recommendation](http://www.w3.org/TR/page-visibility/)
